@@ -1,0 +1,28 @@
+package com.Fruit;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class FruitApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext Context = SpringApplication.run(FruitApplication.class, args);
+		Apple ap1 = Context.getBean(Apple.class);
+		Banana ba1 = Context.getBean(Banana.class);
+		Kiwi ki1 = Context.getBean(Kiwi.class);
+		
+		ap1.toString();
+		System.out.println(ap1.toString());
+		ba1.toString();
+		ki1.toString();
+	
+	}
+	
+
+}
+  

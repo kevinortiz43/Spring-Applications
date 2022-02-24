@@ -1,0 +1,60 @@
+package com.Revision;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Teacher {
+
+	private int Tage;
+	private String tname;
+	private char tgender;
+	private String subject;
+	private boolean substitute;
+
+//@Autowired
+
+	public Teacher() {
+
+	}
+
+	public int getTage() {
+		return Tage;
+	}
+
+	public void setTage(int tage) {
+		Tage = tage;
+	}
+
+	public String getTname() {
+		return tname;
+	}
+
+	public void setTname(String tname) {
+		this.tname = tname;
+	}
+
+	public char getTgender() {
+		return tgender;
+	}
+
+	public void setTgender(char tgender) {
+		this.tgender = tgender;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public boolean isSubstitute() {
+		return substitute;
+	}
+
+	public void setSubstitute(boolean substitute) {
+		this.substitute = substitute;
+	}
+
+}
