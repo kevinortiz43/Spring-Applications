@@ -27,6 +27,7 @@ findIndicationColor=44,54,110
 hyperlinkColor=111,197,238
 hyperlinkColor.SystemDefault=false
 infoIndicationColor=86,194,170
+isChangeGoToNextNavigationTarget=true
 javaScriptOccurrenceIndicationColor=61,61,4
 lineNumberColor=43,145,175
 linked.slave.color=66,156,255
