@@ -4314,3 +4314,39 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2022-03-03 12:09:08,762 [Worker-7: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-03-03 12:09:08,767 [Worker-7: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-03 12:09:08,767 [Worker-7: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-03 12:09:08,767 [Worker-7: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kevin\Spring-Tool-Suite\monster-records\src\test\resources
+2022-03-04 15:55:18,005 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-04 15:59:56,097 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-04 15:59:56,195 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-04 15:59:56,285 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-04 15:59:56,436 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-04 15:59:56,448 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-04 15:59:56,448 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-04 15:59:56,448 [Worker-13: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kevin\Spring-Tool-Suite\monster-records\src\test\resources
+2022-03-06 02:02:34,836 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-06 03:29:06,760 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-06 03:29:06,780 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-06 03:29:06,788 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-06 03:29:06,846 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-06 03:29:06,850 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-06 03:29:06,850 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-06 03:29:06,850 [Worker-25: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kevin\Spring-Tool-Suite\monster-records\src\test\resources
+2022-03-08 09:35:37,953 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-08 09:35:37,975 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-08 09:35:38,093 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-08 09:35:38,135 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-08 09:35:38,138 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-08 09:35:38,138 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-08 09:35:38,139 [Worker-172: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kevin\Spring-Tool-Suite\monster-records\src\test\resources
+2022-03-08 23:38:54,040 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-08 23:38:54,119 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-08 23:38:54,154 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-08 23:38:55,440 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-08 23:38:55,443 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-08 23:38:55,443 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-08 23:38:55,444 [Worker-282: Launching MonsterRecordsApplication (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kevin\Spring-Tool-Suite\monster-records\src\test\resources
+2022-03-08 23:44:14,380 [Worker-283: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-08 23:44:14,381 [Worker-283: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-08 23:44:14,384 [Worker-283: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-08 23:44:14,398 [Worker-283: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-08 23:44:14,401 [Worker-283: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

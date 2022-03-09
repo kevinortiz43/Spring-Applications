@@ -57,14 +57,15 @@ public class monsterController {
 	public ResponseEntity<monster> updatedMonsters(@PathVariable int id, @RequestBody monster monster) {
 		monster monsterId = monsterRepo.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("monster not found"));
-		monsterId.setArmor_class(monster.getArmor_class());
+		monsterId.setArmor(monster.getArmor());
 		monsterId.setAlignment(monster.getAlignment());
-		monsterId.setChallenge_rating(monster.getChallenge_rating());
+		monsterId.setChallenge(monster.getChallenge());
 		monsterId.setCreature(monster.getCreature());
 		monsterId.setHealth(monster.getHealth());
-		monsterId.setMonster_type(monster.getMonster_type());
+		monsterId.setClassification(monster.getClassification());
 		monsterId.setSize(monster.getSize());
 		monsterId.setPortrait(monster.getPortrait());
+		monsterId.setLegendary(monster.isLegendary());
 		monster updatedMonsters = monsterRepo.save(monsterId);
 		return ResponseEntity.ok(updatedMonsters);
 	}
