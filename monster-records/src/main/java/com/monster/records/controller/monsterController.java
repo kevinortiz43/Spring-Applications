@@ -1,6 +1,7 @@
 package com.monster.records.controller;
 
 import java.util.List;
+ 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,11 +15,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+// add a login, add encryption. 
+
+
 import com.monster.records.exceptions.ResourceNotFoundException;
 import com.monster.records.model.monster;
 import com.monster.records.repository.monsterRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins={"https://kevinortiz43.github.io","localhost:3000"})
 @RestController
 @RequestMapping("/monster/")
 public class monsterController {
@@ -30,7 +34,8 @@ public class monsterController {
 	public List<monster> getAllMonsters() {
 		return monsterRepo.findAll();
 	}
-
+	
+	
 	@PostMapping("/addmonsters")
 	public monster newMonster(@RequestBody monster monster) {
 		return monsterRepo.save(monster);
@@ -38,7 +43,7 @@ public class monsterController {
 
 	@GetMapping("/monster/{creature}")
 	public List<monster> getCreature(@PathVariable String creature) {
-
+		
 		List<monster> monster = monsterRepo.findByCreature(creature);
 		if (monster.isEmpty()) {
 			System.out.println(new ResourceNotFoundException("monsters with the name + " + creature + "not found"));
@@ -70,7 +75,7 @@ public class monsterController {
 		return ResponseEntity.ok(updatedMonsters);
 	}
 
-	@DeleteMapping("/monstersId/{id}")
+	@DeleteMapping("/monsterId/{id}")
 	public String deleteMonsters(@PathVariable int id) {
 		monsterRepo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Monster not found"));
 		monsterRepo.deleteById(id);

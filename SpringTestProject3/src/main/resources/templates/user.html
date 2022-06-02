@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>User Profile</title>
+</head>
+
+<body>
+
+	<table>
+
+		<!--  first row -->
+		<tr>
+			<th>username</th>
+			<th>description</th>
+			<th>date</th>
+		</tr>
+
+		<!-- second row -->
+		<tr th:if="${#lists.isEmpty(userEntity)}">
+			<td colspan="7">No users found. Add user.</td>
+		</tr>
+		<!-- third row, line 23 is a for(each : inThis) loops through, and prints out these for each row of data
+  thymeleaf pulls from the Model container
+  -->
+		<tr th:each="userEntity : ${userEntity}">
+			<td th:text="${userEntity.username}"></td>
+			<td th:text="${userEntity.description}"></td>
+			<td th:text="${userEntity.targetDate}"></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

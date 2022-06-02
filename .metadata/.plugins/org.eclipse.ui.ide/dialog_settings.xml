@@ -49,6 +49,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\kevin\Downloads\my-spring-data"/>
+			<item value="C:\Users\kevin\Downloads\ValidateForm"/>
+			<item value="C:\Users\kevin\Downloads\Thymeleafprojectdemo"/>
+			<item value="C:\Users\kevin\Downloads\employeeapp"/>
 			<item value="C:\Users\kevin\git\ReactFullstackBackend"/>
 			<item value="C:\Users\kevin\Spring-Tool-Suite\ReactFullstackBackend-main"/>
 			<item value="C:\Users\kevin\eclipse-workspace\demo"/>
